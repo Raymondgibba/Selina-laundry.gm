@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selina Laundry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="selina blue.png" type="image/png">
+     <meta name="description" content="Selina Laundry offers premium laundry services including clothes, bedding, curtains, car covers, and more. Book online today!">
+  <meta name="keywords" content="Laundry service, wash clothes, bedding, curtains, car covers, professional laundry">
+  <link rel="icon" href="selina blue.png"> <!-- Your favicon/logo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <img src="header logo done.png" alt="Selina Laundry Logo" class="logo">
+            <h1>Selina Laundry & Dry Cleaning Service</h1>
+            <p class="tagline">Reliable laundry service. powered to serve, even without electricity!!</p>
+            <a href="https://wa.me/2207878943?text=Hello%20Selina%20Laundry!%20I%20would%20like%20to%20book%20a%20laundry%20service.%20Please%20let%20me%20know%20the%20available%20slots." class="button">Book Now</a>
+        </div>
+        <div class="scroll-down" onclick="document.querySelector('#next-section').scrollIntoView({behavior:'smooth'});">
+  ▼
+</div>
+
+    </header>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger" id="hamburger-menu" aria-label="Open navigation" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <a href="#opening-hours">opening hours</a>
+        <a href="#services">Services</a>
+        <a href="#map-container">Location</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#loyalty">Loyalty</a>
+        <a href="#how-to-book">Q&A</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/2207878943?text=Hello%20Selina%20Laundry!%20I%20would%20like%20to%20book%20a%20laundry%20service.%20Please%20let%20me%20know%20the%20available%20slots.">Book Now</a>
+    </nav>
+    <!-- Scroll to Top Button -->
+<div class="scroll-up" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+  <i class="fas fa-chevron-up"></i>
+</div>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Us</h2>
+                        <p>At <strong>Selina Laundry</strong>, we believe that clean clothes mean a fresh start to your day. With years of experience, we deliver top-quality laundry services, treating every garment with care as if it were our own.</p>
+                        <p>Our team is dedicated to giving you the convenience, reliability, and quality you deserve — so you can focus on the things that matter most.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="laundry.jpg" alt="Selina Laundry in action">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <img src="washing.jpg" alt="Washing and Drying" class="service-img">
+                    <h3>Washing & Drying</h3>
+                    <p>High-quality washing and efficient drying for all fabric types.</p>
+                </div>
+                <div class="service-card">
+                    <img src="ironing.webp" alt="Ironing Service" class="service-img">
+                    <h3>Ironing</h3>
+                    <p>Neat and wrinkle-free ironing for a polished look.</p>
+                </div>
+                <div class="service-card">
+                    <img src="fabric-care.jpg" alt="Special Fabric Care" class="service-img">
+                    <h3>Special Fabric Care</h3>
+                    <p>Gentle handling for delicate garments and special materials.</p>
+                </div>
+                <div class="service-card">
+                    <img src="delievery.jpg" alt="Pick-Up and Delivery" class="service-img">
+                    <h3>Pick-Up & Delivery</h3>
+                    <p>Convenient collection and delivery service to save you time.</p>
+                </div>
+            </div>
+            <!-- New Subsection: What We Wash -->
+           <section class="what-we-wash">
+  <h2>What We Wash</h2>
+  <p>Professional cleaning for a variety of items.</p>
+
+  <div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-tshirt"></i></div>
+  <h3>Clothes</h3>
+  <p>Shirts, trousers, dresses...</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-bed"></i></div>
+  <h3>Bedding</h3>
+  <p>Sheets, pillowcases, duvets...</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-user-tie"></i></div>
+  <h3>Formal Wear</h3>
+  <p>Suits, ties, gowns...</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-feather"></i></div>
+  <h3>Special Items</h3>
+  <p>Delicate fabrics, keepsakes...</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-car"></i></div>
+  <h3>Car Covers</h3>
+  <p>Full-size & compact covers</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-table"></i></div>
+  <h3>Table Cloths</h3>
+  <p>Dining & decorative cloths</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-shoe-prints"></i></div>
+  <h3>Shoes</h3>
+  <p>Sports, casual, formal</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-shopping-bag"></i></div>
+  <h3>Bags</h3>
+  <p>Handbags, backpacks, travel</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-window-maximize"></i></div>
+  <h3>Curtains</h3>
+  <p>Window drapes & blinds</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+<div class="wash-card">
+  <div class="wash-icon"><i class="fas fa-box"></i></div>
+  <h3>Other</h3>
+  <p>Any washable items</p>
+  <div class="dropdown-icon">▼</div>
+</div>
+
+</section>
+
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section pricing">
+            <h2>Our Pricing</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <div class="price-circle">
+                        <span class="plan-name">For Adults</span>
+                        <span class="price">D<strong>150</strong><span class="unit">/dozen</span></span>
+                    </div>
+                    <ul>
+                   
+                        <li>Wash, Iron and fold</li>
+                        
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <div class="price-circle dark">
+                        <span class="plan-name">For children 7-12</span>
+                        <span class="price">D<strong>100</strong><span class="unit">/dozen</span></span>
+                    </div>
+                    <ul>
+                  <li>Wash, Iron and fold</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <div class="price-circle">
+                        <span class="plan-name">For Kids 1-6</span>
+                        <span class="price">D<strong>150</strong><span class="unit">/2 dozen</span></span>
+                    </div>
+                    <ul>
+                       <li>Wash, Iron and fold</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="calculator">
+  <h2>Laundry Price Calculator For Cloths</h2>
+  <form id="laundryForm">
+    <div class="item">
+      <label>Kids Clothes aged 1-7 (per 2 dozens = D150):</label>
+      <input type="number" name="kids" placeholder="Enter dozens">
+    </div>
+
+    <div class="item">
+      <label>Children Clothes aged 8-12 (per dozens = D100):</label>
+      <input type="number" name="children" placeholder="Enter dozens">
+    </div>
+
+    <div class="item">
+      <label>Adult Clothes (per dozen = D150):</label>
+      <input type="number" name="adult" placeholder="Enter dozens">
+    </div>
+
+
+    <button type="button" onclick="calculatePrice()">Calculate</button>
+  </form>
+
+  <h3 id="totalResult">Total: D0</h3>
+<div class="price-note">
+  <h3>Note:</h3>
+  <h1>Price can change upon arrival!!</h1>
+  <p>
+    For other items like bedding, curtains, car covers, and more, 
+    please contact us directly for a personalized quote.
+  </p>
+</div>
+</section>
+
+
+        <!-- Loyalty / Reward Program Section -->
+        <section id="loyalty" class="section loyalty-section">
+            <h2>Our Loyalty Program</h2>
+            <div class="loyalty-card">
+                <div class="loyalty-icon">🎁</div>
+                <h3>Get a Free Wash!</h3>
+                <p>Come to <strong>Selina Laundry</strong> <strong>10 times</strong>, and receive a <strong>free wash of one dozen clothes</strong> as a thank-you for your loyalty!</p>
+                <p>Every visit counts!! keep track and enjoy your reward!</p>
+                <a href="#contact" class="button loyalty-button">Start Your Laundry Journey</a>
+            </div>
+        </section>
+
+        <!-- Q&A / How to Book Section -->
+        <section id="how-to-book" class="section faq-section">
+            <h2>Q&A</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">1. How can I book a laundry service?</button>
+                    <div class="faq-answer">
+                        <p>You can book via phone, email, WhatsApp, or by clicking the "Book Now" button on our website.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">2. Do you offer pickup and delivery?</button>
+                    <div class="faq-answer">
+                        <p>Yes! We provide convenient pickup and delivery at your preferred time and location.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">3. What are your opening hours?</button>
+                    <div class="faq-answer">
+                        <p>Monday to Saturday: 8:00 AM – 6:00 PM. Sunday: Closed.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">4. How do I pay for the service?</button>
+                    <div class="faq-answer">
+                        <p>Payments can be made on delivery via cash, mobile money, or bank transfer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Opening Hours Section -->
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> <a href="tel:+2207878943">+220 7878 943</a></p>
+            <!--<p><strong>Email:</strong> info@selinalaundry.com</p>-->
+            <p><strong>Location:</strong> Kotu, The Gambia</p>
+        </section>
+         </section>
+         <!-- Google Map -->
+          <section id="map-container" class="section map-section">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d573.6810003902707!2d-16.706541367215834!3d13.446194025333035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgm!4v1755123409285!5m2!1sen!2sgm" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+          </section>
+            <section id="opening-hours" class="section opening-hours">
+            <!-- Opening Hours -->
+            <div class="opening-hours">
+                <h3>Opening Hours</h3>
+                <p><strong>Monday:</strong> 8:00 AM – 6:00 PM</p>
+                <p><strong>Tuesday:</strong> 8:00 AM – 6:00 PM</p>
+                <p><strong>Wednesday:</strong> 8:00 AM – 6:00 PM</p>
+                <p><strong>Thursday:</strong> 8:00 AM – 6:00 PM</p>
+                <p><strong>Friday:</strong> 8:00 AM – 6:00 PM</p>
+                <p><strong>Saturday:</strong> 8:00 AM – 6:00 PM</p>
+                <p><strong>Sunday:</strong> Closed</p>
+            </div>
+        </section>
+         <!-- Customer Reviews Section -->
+<section id="reviews" class="section reviews">
+  <h2>What Our Customers Say</h2>
+  <div class="reviews-container">
+
+    <div class="review-card">
+      <div class="review-header">
+        <img src="Raymond Gibba.jpeg" alt="Customer" class="review-img">
+        <div>
+          <h4>Raymond Gibba.</h4>
+          <span class="stars">★★★★★</span>
+        </div>
+      </div>
+      <p>"Selina Laundry saved me so much time! My clothes came back fresh, clean, and neatly folded. Highly recommended!"</p>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <img src="mustapha.jpg" alt="Customer" class="review-img">
+        <div>
+          <h4>mustapha C.</h4>
+          <span class="stars">★★★★★</span>
+        </div>
+      </div>
+      <p>"Professional, fast, and reliable. I especially love their pick-up and delivery service. Makes life so much easier!"</p>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <img src="Mariama.webp" alt="Customer" class="review-img">
+        <div>
+          <h4>Mariama S.</h4>
+          <span class="stars">★★★★★</span>
+        </div>
+      </div>
+      <p>"Best laundry service I’ve used in The Gambia. Affordable prices and amazing customer care!"</p>
+    </div>
+
+  </div>
+</section>
+
+        
+    </main>
+
+    <footer>
+    <p>&copy; 2025 Selina Laundry. All rights reserved.</p>
+    <p>
+        | 
+        <a href="https://wa.me/2207878943?text=Hello%20Selina%20Laundry!%20I%20would%20like%20to%20book%20a%20laundry%20service.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank">WhatsApp</a>
+|
+    </p>
+    <p class="powered">Powered by <strong>Uncle Robot</strong></p>
+</footer>
+
+    <!-- Scripts -->
+    <script>
+        // Hamburger Menu
+        const hamburger = document.getElementById('hamburger-menu');
+        const nav = document.getElementById('main-nav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('active');
+            });
+        });
+
+        // FAQ Toggle
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const answer = item.querySelector('.faq-answer');
+                const isOpen = answer.style.display === 'block';
+                document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+                answer.style.display = isOpen ? 'none' : 'block';
+            });
+        });
+        
+        const washCards = document.querySelectorAll('.wash-card');
+
+washCards.forEach(card => {
+  card.addEventListener('click', () => {
+    if(window.innerWidth <= 768){
+      card.classList.toggle('active');
+    }
+  });
+});
+ // Show or hide the scroll button based on scrolling position
+    window.onscroll = function () {
+        var scrollBtn = document.getElementById("scrollBtn");
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            scrollBtn.style.display = "block";
+        } else {
+            scrollBtn.style.display = "none";
+        }
+    };
+
+    // Function to scroll back to top smoothly
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    // Show/Hide Scroll Up Button
+const scrollUpBtn = document.querySelector('.scroll-up');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    scrollUpBtn.classList.add('show');
+  } else {
+    scrollUpBtn.classList.remove('show');
+  }
+});
+
+function calculatePrice() {
+  const form = document.getElementById('laundryForm');
+  
+  let kids = (form.kids.value || 0) * (150 / 2);  // per dozen
+  let children= (form.children.value || 0) * 100
+  let adult = (form.adult.value || 0) * 150;
+ 
+
+  let total = kids + children + adult;
+
+  document.getElementById('totalResult').innerText = "Total: D" + total;
+}
+
+
+
+    </script>
+
+</body>
+</html>
